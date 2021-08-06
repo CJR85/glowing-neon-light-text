@@ -72,4 +72,22 @@ body {
   width: 100%;
   height: 100%;
   background: #f00;
+  animation: animatetopLayer 10s linear infinite;
+}
+
+@keyframes animatetopLayer {
+  0%,
+  2.5% {
+    transform: translateX(0);
+  }
+  5% {
+    transform: translateX(0);
+  }
+  45% {
+    transform: translateX(100%);
+  }
+  47.5%,
+  50% {
+    transform: translateX(100%);
+  }
 }
